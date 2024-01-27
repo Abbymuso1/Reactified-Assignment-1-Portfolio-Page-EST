@@ -12,16 +12,19 @@ const Portfolioitem = ({ img, title, details }) => {
         <div className="portfolio__item">
             <img src={img} alt="" className="portfolio__img" />
 
+            {/* changes the state to enable the user to view the content of the modal */}
             <div className="portfolio__hover" onClick={toggleModal}>
                 <h3 className="portfolio__title">
                     {title}
                 </h3>
             </div>
 
+            {/* The modal being viewed by the user */}
             {modal && (
                 <div className="portfolio__modal">
                     <div className="portfolio__modal-content">
-                        <img src={Close} alt="" className="modal__close" onClick={toggleModal}/>
+                        {/* changes the state to close the modal being viewed by user */}
+                        <img src={Close} alt="" className="modal__close" onClick={toggleModal} />
 
                         <h3 className="modal__item">
                             {title}
