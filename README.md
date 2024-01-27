@@ -1,14 +1,6 @@
 # Portfolio Page
 
-This project showcases more about myself, my experiences and skills.
-
-## Project Timeline and Technologies
-
-Built the website in 48 hours to showcase the following:
-* About Me - Contact Details and Education
-* My technical skills
-* My Personal Projects
-* Means to contact me
+This project is the an upgraded reactified version of my [first portfolio website](https://abbymuso1.github.io/Assignment-1-Portfolio-Page-EST/)
 
 ### Technologies Used
 
@@ -16,6 +8,7 @@ Built the website in 48 hours to showcase the following:
 * CSS
 * JavaScript
 * ReactJS
+* Vite
 
 ### Interesting and new features in it
 
@@ -23,4 +16,10 @@ Built the website in 48 hours to showcase the following:
 * Enables changing of themes
   
 ### Link to my deployed website
+Deployed using netlify
 * [Abigail's Portfoliio](https://abigail-wairi-portfolio.netlify.app/)
+
+----------------------------------------------------------
+# Assignment - Questions and Answers
+
+
