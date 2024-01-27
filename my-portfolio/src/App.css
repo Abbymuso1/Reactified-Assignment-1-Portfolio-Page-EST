@@ -35,6 +35,7 @@
     --weight-800: 800;
 }
 
+/* The dark mode theme of the website*/
 .dark-theme {
     --title-color: hsl(0, 0%, 100%);
     --text-color: hsl(0, 0%, 80%);
