@@ -24,6 +24,7 @@ const getStorageTheme = () => {
 };
 
 const Themes = () => {
+    // Application of usestate in this project
     const [showSwitcher, setShowSwitcher] = useState(false);
     const [color, setColor] = useState(getStorageColor());
     const [theme, setTheme] = useState(getStorageTheme());
@@ -41,6 +42,7 @@ const Themes = () => {
         }
     };
 
+    // Application of use effect in this project
     useEffect(() => {
         document.documentElement.style.setProperty('--first-color', color);
         localStorage.setItem('color', color);
