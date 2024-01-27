@@ -1,9 +1,11 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import './App.css';
-
+//the components included in the home page
 import Navbar from './components/Navbar';
-import Themes from './components/Themes';
+import Themes from './components/Themes'; //enables changing of the theme when viewing the portfolio
+
+//the pages of the website
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Portfolio from './pages/portfolio/Portfolio';
