@@ -2,6 +2,7 @@ import React from 'react';
 import { stats } from '../data';
 import parse from 'html-react-parser';
 
+//this component displays the statistics
 const Stats = () => {
   return (
    <>

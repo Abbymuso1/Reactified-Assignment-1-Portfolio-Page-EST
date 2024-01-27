@@ -1,7 +1,7 @@
 import React from 'react'
 import { personalInfo } from '../data';
 
-
+//this component dispays the personal information 
 const Inform = () => {
   return (
     <>
