@@ -1,0 +1,6 @@
+.home__description {
+    line-height: 2.125;
+    margin-block: 16px 32px;
+    color: var(--text-color);
+    font-weight: var(--weight-900);
+}

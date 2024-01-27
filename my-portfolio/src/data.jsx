@@ -58,6 +58,13 @@ export const links = [
     icon: <FaEnvelopeOpen className='nav__icon' />,
     path: '/contact',
   },
+
+  {
+    id: 5,
+    name: 'Jokes',
+    icon: <FaBriefcase className='nav__icon' />,
+    path: '/jokes',
+  },
 ];
 
 //Personal Information displayed on the website
