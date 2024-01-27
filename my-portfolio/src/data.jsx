@@ -9,6 +9,7 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
+//the images of the projects worked on
 import Work1 from './assets/portfolio/swaluke-home.png';
 import Work2 from './assets/portfolio/srms-home.png';
 import Work3 from './assets/portfolio/wisechoice-home.png';
@@ -16,6 +17,7 @@ import Work4 from './assets/portfolio/iprs-home.png';
 import Work5 from './assets/portfolio/parking-home.png';
 import Work6 from './assets/portfolio/smoothie-place-home.png';
 
+//the images of the different colors that can be implemented as a theme in the website
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
 import Theme3 from './assets/blueviolet.png';
@@ -27,6 +29,7 @@ import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
 
+//The links to the different pages in the website
 export const links = [
   {
     id: 1,
@@ -57,6 +60,7 @@ export const links = [
   },
 ];
 
+//Personal Information displayed on the website
 export const personalInfo = [
   {
     id: 1,
@@ -119,6 +123,7 @@ export const personalInfo = [
   },
 ];
 
+//Statistics of the what I have accomplished
 export const stats = [
   {
     id: 1,
@@ -145,6 +150,7 @@ export const stats = [
   },
 ];
 
+//Work experience and education
 export const resume = [
   {
     id: 1,
@@ -193,6 +199,7 @@ export const resume = [
 
 ];
 
+//Skills in the various technologies
 export const skills = [
   {
     id: 1,
@@ -243,6 +250,7 @@ export const skills = [
   },
 ];
 
+//Portfolio displaying the personal projects completed
 export const portfolio = [
   {
     id: 1,
@@ -405,6 +413,7 @@ export const portfolio = [
   },
 ];
 
+//Themes that can be applied in the website
 export const themes = [
   {
     id: 1,
