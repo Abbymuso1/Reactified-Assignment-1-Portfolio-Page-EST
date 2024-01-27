@@ -1,9 +1,11 @@
 import React from 'react';
 import Inform from '../../components/Inform';
 import Stats from '../../components/Stats';
+import Skills from '../../components/Skills';
+
 import { FaDownload } from "react-icons/fa";
 import CV from "../../assets/Abigail_Wairi_cv.pdf";
-import Skills from '../../components/Skills';
+
 import { resume } from '../../data';
 import Resumeitem from '../../components/Resumeitem';
 
