@@ -27,10 +27,10 @@ Deployed using netlify
 1. What is `the event loop`?
 1. What is the difference between `export x` and `export default x`? How do you import them differently?
 1. Why do you use `className` as a property in React and not `class`?
-1. Why should you not write the following? What will happen? ```
+1. Why should you not write the following? What will happen?
+```
 <button onClick={setCounter(counter + 1)}> +1 </button>
 ```
-
 1. What is `object deconstruction` and how is it connected to React components (example)?
 1. How is it possible to use `HTML` and `JavaScript` in the same function (like in a `React Component`)? What makes it possible under the hood?
 1. What is `async/await`? Bring an example
