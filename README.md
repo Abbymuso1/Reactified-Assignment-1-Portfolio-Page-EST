@@ -24,25 +24,25 @@ Deployed using netlify
 
 1. What is `NPM`?
 **NPM stands for Node Package Manager. It is basically a package manager and a software register and using it users can utilize packages within it for their personal projects. It is used in the management of Node.js packages and supports the Javascript community. (Metwalli, 2023)**
-1. What is `SPA`?
+2. What is `SPA`?
 **SPA stands for a single page application. This refers to a web page that engages in real-time interaction with the web browser by dynamically updating its content with data fetched from the web server. Essentially, the page remains active within the browser without the need for reloading in the browser. It is mainly applied in ReactJS. (Chauhan, 2022)**
-1. What is `the event loop`?
+3. What is `the event loop`?
 **An event loop is responsible for continually retrieving tasks from a queue and pushing them onto the function execution stack whenever the stack is cleared.. (GeeksforGeeks, 2023)**
-1. What is the difference between `export x` and `export default x`? How do you import them differently?
+4. What is the difference between `export x` and `export default x`? How do you import them differently?
 **In React, export default serves to export a single value or function as the default export, while export with named exports is utilized to export multiple values under distinct names. (Hesham El Masry, 2023)**
-1. Why do you use `className` as a property in React and not `class`?
+5. Why do you use `className` as a property in React and not `class`?
 **The reason for using className over class stems from JavaScript's reserved keyword class, which could lead to conflicts within JSX syntax. Given that JSX is an extension of JavaScript primarily used in React, the usage of className ensures compatibility and avoids potential naming collisions with the class keyword (GeeksforGeeks, 2023)**
-1. Why should you not write the following? What will happen?
+6. Why should you not write the following? What will happen?
 ```
 <button onClick={setCounter(counter + 1)}> +1 </button>
 ```
-1. What is `object deconstruction` and how is it connected to React components (example)?
+7. What is `object deconstruction` and how is it connected to React components (example)?
 **It is a feature in JavaScript that enables the extraction of multiple data elements from an array or object, assigning them to individual variables. It enhances code readability and maintainability and within React, object destructuring finds frequent application in extracting state values passed to a component. (freeCodeCamp.org, 2018)**
-1. How is it possible to use `HTML` and `JavaScript` in the same function (like in a `React Component`)? What makes it possible under the hood?
+8. How is it possible to use `HTML` and `JavaScript` in the same function (like in a `React Component`)? What makes it possible under the hood?
 **React components offer the ability to blend HTML-like syntax, known as JSX, with JavaScript seamlessly within a single function. This integration is facilitated by React's JSX compiler, which translates JSX into JavaScript functions responsible for manipulating the Document Object Model (DOM) (Introducing JSX – React, 2024)**
-1. What is `async/await`? Bring an example
+9. What is `async/await`? Bring an example
 **Async means asynchronous.It is a JavaScript feature designed to manage asynchronous tasks in a manner that resembles synchronous programming. It enables the execution of functions without blocking the entire program. This capability is achieved through the use of the async and await keywords. (Kumar, 2021)**
-1. What is a `Promise`? Bring an example
+10. What is a `Promise`? Bring an example
 **A Promise is a JavaScript object designed to handle the outcome of asynchronous tasks. It encompasses three states: pending, resolved (or fulfilled), and rejected. The primary goal is to enhance the readability and maintainability of asynchronous code by providing a structured approach that mimics synchronous programming. (Shad, 2023)**
 
 ## References
