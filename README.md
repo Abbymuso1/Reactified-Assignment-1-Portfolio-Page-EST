@@ -46,16 +46,16 @@ Deployed using netlify
 **A Promise is a JavaScript object designed to handle the outcome of asynchronous tasks. It encompasses three states: pending, resolved (or fulfilled), and rejected. The primary goal is to enhance the readability and maintainability of asynchronous code by providing a structured approach that mimics synchronous programming. (Shad, 2023)**
 
 ## References
-* [Chauhan, H. (2022, May 6). A Beginner’s Guide to Create SPA with React Js. DEV Community.] (https://dev.to/hiteshtech/a-beginners-guide-to-create-spa-with-react-js-491c)
-* [freeCodeCamp.org. (2018, April 23). Learn the basics of destructuring props in React.] (https://www.freecodecamp.org/news/the-basics-of-destructuring-props-in-react-a196696f5477/)
-* [GeeksforGeeks. (2023, December 18). What is an event loop in JavaScript.] (https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
-* [GeeksforGeeks. (2023a, October 30). Why React uses className over class attribute.] (https://www.geeksforgeeks.org/why-react-uses-classname-over-class-attribute/)
+* [Chauhan, H. (2022, May 6). A Beginner’s Guide to Create SPA with React Js. DEV Community.](https://dev.to/hiteshtech/a-beginners-guide-to-create-spa-with-react-js-491c)
+* [freeCodeCamp.org. (2018, April 23). Learn the basics of destructuring props in React.](https://www.freecodecamp.org/news/the-basics-of-destructuring-props-in-react-a196696f5477/)
+* [GeeksforGeeks. (2023, December 18). What is an event loop in JavaScript.](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
+* [GeeksforGeeks. (2023a, October 30). Why React uses className over class attribute.](https://www.geeksforgeeks.org/why-react-uses-classname-over-class-attribute/)
 * [Hesham El Masry, H. R. H. E. M. (2023, August 15). Understanding the Difference between export default and export with Named Exports in JavaScript. Medium.] (https://medium.com/@heshramsis/understanding-the-difference-between-export-default-and-export-with-named-exports-in-javascript-f0569c221a3#:~:text=export%20default%20is%20used%20to,for%20code%20organization%20and%20reusability.)
 * [Introducing JSX – React. (2024). React.] (https://legacy.reactjs.org/docs/introducing-jsx.html)
-* [Kumar, N. (2021, February 2). How to Use Async/Await in JavaScript with Example JS Code. freeCodeCamp.org.] (https://www.freecodecamp.org/news/async-await-in-javascript/#:~:text=Async%2FAwait%20makes%20it%20easier,wait%20until%20the%20Promise%20resolves.)
+* [Kumar, N. (2021, February 2). How to Use Async/Await in JavaScript with Example JS Code. freeCodeCamp.org.](https://www.freecodecamp.org/news/async-await-in-javascript/#:~:text=Async%2FAwait%20makes%20it%20easier,wait%20until%20the%20Promise%20resolves.)
 * [Metwalli, S. (2023, March 28). What is NPM? Built In.] (https://builtin.com/software-engineering-perspectives/npm)
-* [Shad, S. (2023, November 7). Understanding promises in JavaScript and their use in React. Medium.] (https://medium.com/@sharareshaddev/understanding-promises-in-javascript-and-their-use-in-react-a77564aae576)
-* [TiShow. (2022, January 4). 【React Hooks】Why you shouldn’t write setCount(count + 1). Medium.] (https://t-i-show.medium.com/react-hooks-why-you-shouldnt-write-setcount-count-1-e3ef2f046d31)
+* [Shad, S. (2023, November 7). Understanding promises in JavaScript and their use in React. Medium.](https://medium.com/@sharareshaddev/understanding-promises-in-javascript-and-their-use-in-react-a77564aae576)
+* [TiShow. (2022, January 4). 【React Hooks】Why you shouldn’t write setCount(count + 1). Medium.](https://t-i-show.medium.com/react-hooks-why-you-shouldnt-write-setcount-count-1-e3ef2f046d31)
 
 
 
