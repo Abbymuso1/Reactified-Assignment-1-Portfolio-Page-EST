@@ -17,7 +17,7 @@ This project is the an upgraded reactified version of my [first portfolio websit
   
 ### Link to my deployed website
 Deployed using netlify
-* [Abigail's Portfoliio](https://abigail-wairi-portfolio.netlify.app/)
+* [Abigail's Portfoliio]()
 
 ----------------------------------------------------------
 # Assignment - Questions and Answers
