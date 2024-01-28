@@ -23,6 +23,8 @@ Deployed using netlify
 # Assignment - Questions and Answers
 
 1. What is `NPM`?
+** NPM stands for Node Package Manager. It is basically a package manager and a software register and using it users can utilize packages within it for their personal projects. It is used in the management of Node.js packages and supports the Javascript community. (Metwalli, 2023)
+ **
 1. What is `SPA`?
 1. What is `the event loop`?
 1. What is the difference between `export x` and `export default x`? How do you import them differently?
