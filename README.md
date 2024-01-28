@@ -57,6 +57,10 @@ console.log(introduction); // outputs "Hello, world!"
 ```
 <button onClick={setCounter(counter + 1)}> +1 </button>
 ```
+**The issue with the provided code arises from the fact that setCounter(counter + 1) is invoked directly within the onClick handler without the button being clicked. Consequently, this expression is evaluated immediately upon component rendering, incrementing the counter and causing a re-render cycle. As a result, the setCounter function is repeatedly called, leading to an infinite loop of state updates and re-renders (TiShow, 2022) <br />To fix this, you should pass a function to setCounter that updates the state based on the previous state so that it correctly updates the state when the button is clicked :**
+```javascript
+<button onClick={() => setCounter(counter + 1)}> +1 </button>
+```
 7. What is `object deconstruction` and how is it connected to React components (example)?
 **It is a feature in JavaScript that enables the extraction of multiple data elements from an array or object, assigning them to individual variables. It enhances code readability and maintainability and within React, object destructuring finds frequent application in extracting state values passed to a component. (freeCodeCamp.org, 2018)**
 8. How is it possible to use `HTML` and `JavaScript` in the same function (like in a `React Component`)? What makes it possible under the hood?
