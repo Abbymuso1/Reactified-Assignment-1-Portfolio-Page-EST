@@ -18,11 +18,11 @@ function App() {
     <Navbar />
     <Themes />
     <Routes>
-      <Route index element= {<Home />} />
-      <Route path='about' element={<About />} />
-      <Route path='portfolio' element={<Portfolio />} />
-      <Route path='contact' element={<Contact />} />
-      <Route path='jokes' element={<Jokes />} />
+      <Route path='/Reactified-Assignment-1-Portfolio-Page-EST/' element= {<Home />} />
+      <Route path='/Reactified-Assignment-1-Portfolio-Page-EST/about' element={<About />} />
+      <Route path='/Reactified-Assignment-1-Portfolio-Page-EST/portfolio' element={<Portfolio />} />
+      <Route path='/Reactified-Assignment-1-Portfolio-Page-EST/contact' element={<Contact />} />
+      <Route path='/Reactified-Assignment-1-Portfolio-Page-EST/jokes' element={<Jokes />} />
     </Routes>
     </BrowserRouter>
   );

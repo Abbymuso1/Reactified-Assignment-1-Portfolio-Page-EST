@@ -20,7 +20,7 @@ const Home = () => {
         Armed with a solid foundation in algorithms, data structures, and programming languages, I am eager to embark on a journey where technology meets creativity🚀.
         </p>
 
-        <Link to='/about' className='button'>
+        <Link to='/Reactified-Assignment-1-Portfolio-Page-EST/about' className='button'>
           More About Me 
           <span className='button__icon'> 
           <FaArrowRight />

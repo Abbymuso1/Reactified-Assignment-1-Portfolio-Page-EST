@@ -35,35 +35,35 @@ export const links = [
     id: 1,
     name: 'Home',
     icon: <FaHome className='nav__icon' />,
-    path: '/',
+    path: '/Reactified-Assignment-1-Portfolio-Page-EST/',
   },
 
   {
     id: 2,
     name: 'About',
     icon: <FaUser className='nav__icon' />,
-    path: '/about',
+    path: '/Reactified-Assignment-1-Portfolio-Page-EST/about',
   },
 
   {
     id: 3,
     name: 'Portfolio',
     icon: <FaFolderOpen className='nav__icon' />,
-    path: '/portfolio',
+    path: '/Reactified-Assignment-1-Portfolio-Page-EST/portfolio',
   },
 
   {
     id: 4,
     name: 'Contact',
     icon: <FaEnvelopeOpen className='nav__icon' />,
-    path: '/contact',
+    path: '/Reactified-Assignment-1-Portfolio-Page-EST/contact',
   },
 
   {
     id: 5,
     name: 'Jokes',
     icon: <FaBriefcase className='nav__icon' />,
-    path: '/jokes',
+    path: '/Reactified-Assignment-1-Portfolio-Page-EST/jokes',
   },
 ];
 
