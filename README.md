@@ -62,12 +62,32 @@ console.log(introduction); // outputs "Hello, world!"
 <button onClick={() => setCounter(counter + 1)}> +1 </button>
 ```
 7. What is `object deconstruction` and how is it connected to React components (example)?
-**It is a feature in JavaScript that enables the extraction of multiple data elements from an array or object, assigning them to individual variables. It enhances code readability and maintainability and within React, object destructuring finds frequent application in extracting state values passed to a component. (freeCodeCamp.org, 2018)**
-8. How is it possible to use `HTML` and `JavaScript` in the same function (like in a `React Component`)? What makes it possible under the hood?
+**It is a feature in JavaScript that enables the extraction of multiple data elements from an array or object, assigning them to individual variables. It enhances code readability and maintainability and within React, object destructuring finds frequent application in extracting state values passed to a component. (freeCodeCamp.org, 2018) <br /> An example is:**
+```javascript
+const MyProject= ({ title, description}) => {
+  return (
+    <div>
+      <p>Title: {title}</p>
+      <p>Description: {description}</p>
+    </div>
+  );
+};
+
+const App = () => {
+  // Props object containing name and age
+  const project= {
+    title: ‘SwaLUKE’,
+    description: ‘It is a Swahili-Luhya translation system’
+  };
+
+  return <MyProject {...project} />;
+};
+```
+9. How is it possible to use `HTML` and `JavaScript` in the same function (like in a `React Component`)? What makes it possible under the hood?
 **React components offer the ability to blend HTML-like syntax, known as JSX, with JavaScript seamlessly within a single function. This integration is facilitated by React's JSX compiler, which translates JSX into JavaScript functions responsible for manipulating the Document Object Model (DOM) (Introducing JSX – React, 2024)**
-9. What is `async/await`? Bring an example
+10. What is `async/await`? Bring an example
 **Async means asynchronous.It is a JavaScript feature designed to manage asynchronous tasks in a manner that resembles synchronous programming. It enables the execution of functions without blocking the entire program. This capability is achieved through the use of the async and await keywords. (Kumar, 2021)**
-10. What is a `Promise`? Bring an example
+11. What is a `Promise`? Bring an example
 **A Promise is a JavaScript object designed to handle the outcome of asynchronous tasks. It encompasses three states: pending, resolved (or fulfilled), and rejected. The primary goal is to enhance the readability and maintainability of asynchronous code by providing a structured approach that mimics synchronous programming. (Shad, 2023)**
 
 ## References
