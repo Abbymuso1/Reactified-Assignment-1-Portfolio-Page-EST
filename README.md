@@ -89,7 +89,7 @@ const App = () => {
 **Async means asynchronous.It is a JavaScript feature designed to manage asynchronous tasks in a manner that resembles synchronous programming. It enables the execution of functions without blocking the entire program. This capability is achieved through the use of the async and await keywords. (Kumar, 2021)<br /> An example is:**
 ```javascript
 async function init(){
-    await createPrject({ title: `SwaLUKE`, body:`It is a Swahili-Luhya translation system.`});
+    await createProject({ title: `SwaLUKE`, body:`It is a Swahili-Luhya translation system.`});
     
     getProjects(); (*)
 }
