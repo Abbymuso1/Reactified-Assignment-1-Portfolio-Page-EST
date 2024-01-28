@@ -30,6 +30,18 @@ Deployed using netlify
 **An event loop is responsible for continually retrieving tasks from a queue and pushing them onto the function execution stack whenever the stack is cleared.. (GeeksforGeeks, 2023)**
 4. What is the difference between `export x` and `export default x`? How do you import them differently?
 **In React, export default serves to export a single value or function as the default export, while export with named exports is utilized to export multiple values under distinct names. (Hesham El Masry, 2023)**
+**An example using `export` is like below:**
+```javascript
+//greetings.js
+export const greeting = "Hello, world!";
+export const farewell = "Goodbye, world!";
+```
+**An example of `importing` the named exports from module:**
+```javascript
+import { greeting, farewell } from "./greetings.js";
+console.log(greeting); // outputs "Hello, world!"
+console.log(farewell); // outputs "Goodbye, world!
+```
 5. Why do you use `className` as a property in React and not `class`?
 **The reason for using className over class stems from JavaScript's reserved keyword class, which could lead to conflicts within JSX syntax. Given that JSX is an extension of JavaScript primarily used in React, the usage of className ensures compatibility and avoids potential naming collisions with the class keyword (GeeksforGeeks, 2023)**
 6. Why should you not write the following? What will happen?
