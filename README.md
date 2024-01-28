@@ -1,6 +1,6 @@
 # Portfolio Page
 
-This project is the an upgraded reactified version of my [first portfolio website](https://abbymuso1.github.io/Assignment-1-Portfolio-Page-EST/)
+This project is the an upgraded reactified version of my first portfolio website
 
 ### Technologies Used
 
