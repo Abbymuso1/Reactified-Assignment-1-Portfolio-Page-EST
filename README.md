@@ -83,12 +83,46 @@ const App = () => {
   return <MyProject {...project} />;
 };
 ```
-9. How is it possible to use `HTML` and `JavaScript` in the same function (like in a `React Component`)? What makes it possible under the hood?
+8. How is it possible to use `HTML` and `JavaScript` in the same function (like in a `React Component`)? What makes it possible under the hood?
 **React components offer the ability to blend HTML-like syntax, known as JSX, with JavaScript seamlessly within a single function. This integration is facilitated by React's JSX compiler, which translates JSX into JavaScript functions responsible for manipulating the Document Object Model (DOM) (Introducing JSX – React, 2024)**
-10. What is `async/await`? Bring an example
-**Async means asynchronous.It is a JavaScript feature designed to manage asynchronous tasks in a manner that resembles synchronous programming. It enables the execution of functions without blocking the entire program. This capability is achieved through the use of the async and await keywords. (Kumar, 2021)**
-11. What is a `Promise`? Bring an example
-**A Promise is a JavaScript object designed to handle the outcome of asynchronous tasks. It encompasses three states: pending, resolved (or fulfilled), and rejected. The primary goal is to enhance the readability and maintainability of asynchronous code by providing a structured approach that mimics synchronous programming. (Shad, 2023)**
+9. What is `async/await`? Bring an example
+**Async means asynchronous.It is a JavaScript feature designed to manage asynchronous tasks in a manner that resembles synchronous programming. It enables the execution of functions without blocking the entire program. This capability is achieved through the use of the async and await keywords. (Kumar, 2021)<br /> An example is:**
+```javascript
+async function init(){
+    await createPrject({ title: `SwaLUKE`, body:`It is a Swahili-Luhya translation system.`});
+    
+    getProjects(); (*)
+}
+```
+**In the above example, getProjects() at the (*) line is waiting for createProject() to be executed in the async function. In other words, createProject() is async, so getProjects() will only run after createProject() is done.**
+
+10. What is a `Promise`? Bring an example
+**A Promise is a JavaScript object designed to handle the outcome of asynchronous tasks. It encompasses three states: pending, resolved (or fulfilled), and rejected. The primary goal is to enhance the readability and maintainability of asynchronous code by providing a structured approach that mimics synchronous programming. (Shad, 2023)<br /> An example of this:**
+
+```javascript
+// Function that returns a promise
+function getData() {
+  // Simulating fetching data asynchronously
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const data = { message: 'Data fetched successfully!' };
+      // Resolving the promise with the fetched data
+      resolve(data);
+      // Incase of an error
+      // reject(new Error('Failed to fetch data!'));
+    }, 2000);
+  });
+}
+
+// Using the promise
+getData()
+  .then(data => {
+    console.log('Received data:', data);
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
+```
 
 ## References
 * [Chauhan, H. (2022, May 6). A Beginner’s Guide to Create SPA with React Js. DEV Community.](https://dev.to/hiteshtech/a-beginners-guide-to-create-spa-with-react-js-491c)
