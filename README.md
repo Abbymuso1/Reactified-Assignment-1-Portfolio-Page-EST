@@ -35,7 +35,7 @@ Deployed using netlify
 //sample.js
 export const introduction = "Hello, my name is Abby.";
 ```
-**An example of `importing` the named exports from module:**
+**An example of `importing` the named exports from the above module:**
 ```javascript
 import { introduction } from "./sample.js";
 console.log(introduction); // outputs "Hello, my name is Abby."
@@ -46,7 +46,7 @@ console.log(introduction); // outputs "Hello, my name is Abby."
 const introduction = "Hello, my name is Abby.";
 export default introduction;
 ```
-**An example of `importing` the named exports from module:**
+**An example of `importing` the named exports from the above module:**
 ```javascript
 import introduction from "./sample.js";
 console.log(introduction); // outputs "Hello, world!"
