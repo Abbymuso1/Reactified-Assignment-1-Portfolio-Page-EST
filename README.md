@@ -19,7 +19,6 @@ This project is the an upgraded reactified version of my [first portfolio websit
 * The website utilises this in the `Jokes` section of the portfolio website displayed as the `last icon` on the `right navigation bar`
   
 ### Link to my deployed website
-Deployed using netlify
 * [Abigail's Portfoliio]()
 
 ----------------------------------------------------------
