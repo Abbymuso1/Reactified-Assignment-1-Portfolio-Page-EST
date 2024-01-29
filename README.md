@@ -51,7 +51,7 @@ export default introduction;
 **An example of `importing` the named exports from the above module:**
 ```javascript
 import introduction from "./sample.js";
-console.log(introduction); // outputs "Hello, world!"
+console.log(introduction); // outputs "Hello, my name is Abby."
 ```
 5. Why do you use `className` as a property in React and not `class`?
 **The reason for using className over class stems from JavaScript's reserved keyword class, which could lead to conflicts within JSX syntax. Given that JSX is an extension of JavaScript primarily used in React, the usage of className ensures compatibility and avoids potential naming collisions with the class keyword (GeeksforGeeks, 2023)**
