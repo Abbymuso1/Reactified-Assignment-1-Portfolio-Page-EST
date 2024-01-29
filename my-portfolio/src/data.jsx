@@ -374,6 +374,7 @@ export const portfolio = [
     title: 'Intelli Parkings',
     details: [
       {
+        icon: <FiFileText />,
         title: 'Intelli Parkings ',
       },
       {
@@ -382,10 +383,12 @@ export const portfolio = [
         desc: '',
       },
       {
+        icon: <FaCode />,
         title: 'Language : ',
         desc: 'HTML, CSS, JS',
       },
       {
+        icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: 'https://github.com/Abbymuso1/ParkingSystem',
       },

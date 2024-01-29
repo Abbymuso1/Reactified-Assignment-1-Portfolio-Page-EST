@@ -63,7 +63,7 @@
 .form__input-group {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
+    column-gap: 20px;
 }
 
 .form__input-div {
@@ -93,4 +93,23 @@
 .contact__button-icon {
     font-size: var(--h3-font-size);
     line-height: 64px;
+}
+@media (max-width: 991px) {
+    .contact__container {
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+    }
+
+    .contact__info .info__item {
+        flex-direction: column;
+        align-items: flex-start;
+        column-gap: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+    }
 }

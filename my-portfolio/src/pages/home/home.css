@@ -56,3 +56,97 @@
     transform: rotate(-15deg);
 
 }
+
+@media (max-width: 991px) {
+    .home {
+        grid-template-columns: 1fr;
+        /* Change to a single column layout */
+        padding: 20px;
+        /* Adjust padding as needed */
+    }
+
+    .home__img {
+        border-radius: 10px;
+        height: 90%;
+        background-color: red;
+        z-index: 0;
+        /* Adjust border radius as needed */
+    }
+
+    .home__data {
+        max-width: none;
+        
+        /* Remove max-width */
+        padding-top: 10px;
+        /* Adjust padding as needed */
+    }
+
+    .home__title {
+        font-size: var(--h2-font-size);
+        /* Adjust font size as needed */
+        padding-left: 20px;
+        /* Adjust padding as needed */
+    }
+
+    .home__title::before {
+        width: 30px;
+        /* Adjust width as needed */
+        top: 25%;
+        /* Adjust top position as needed */
+    }
+
+    .home__description {
+        margin: 10px 0;
+        /* Adjust margin as needed */
+    }
+
+    .color__block {
+        display: none;
+        /* Hide the color block on smaller screens */
+    }
+}
+
+@media (max-width: 767px) {
+    .home {
+        grid-template-columns: 1fr;
+        /* Change to a single column layout */
+        padding: 20px;
+        /* Adjust padding as needed */
+    }
+
+    .home__img {
+        border-radius: 10px;
+        /* Adjust border radius as needed */
+    }
+
+    .home__data {
+        max-width: none;
+        /* Remove max-width */
+        padding-top: 10px;
+        /* Adjust padding as needed */
+    }
+
+    .home__title {
+        font-size: var(--h2-font-size);
+        /* Adjust font size as needed */
+        padding-left: 20px;
+        /* Adjust padding as needed */
+    }
+
+    .home__title::before {
+        width: 18px;
+        /* Adjust width as needed */
+        top: 25%;
+        /* Adjust top position as needed */
+    }
+
+    .home__description {
+        margin: 10px 0;
+        /* Adjust margin as needed */
+    }
+
+    .color__block {
+        display: none;
+        /* Hide the color block on smaller screens */
+    }
+}
